@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Drum</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+        <img src="" class="logo">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="index.html">DRUMS</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+
+        </ul>
+    </div>
+    </nav>
+    <div class="drumkit">
+        <div class="pad"  data-sound="Clap" ><img src="./icons/clap.png" alt="clap"></div>
+        <div class="pad" data-sound="Crash"><img src="./icons/crash.png" alt="Crash"></div>
+        <div class="pad" data-sound="HighHit"><img src="./icons/open-hihat.png" alt="oh"></div>
+        <div class="pad" data-sound="Kick"><img src="./icons/kick.png" alt="kick"></div>
+        <div class="pad" data-sound="Snare"><img src="./icons/snare.png" alt="snare"></div>
+        <div class="pad" data-sound="LowHit"><img src="./icons/closed-hihat.png" alt="ch"></div>
+    </div>
+    <div class="volume">
+        <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+    </div>
+    <script src="howler.min.js"></script>
+    <script src="./app.js"> </script>
+ 
+
+    </div>
+</body>
+</html>
